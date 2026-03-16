@@ -1,6 +1,6 @@
 [package]
 name        = "eps_mcp"
-version     = "0.1.0"
+version     = "0.1.1"
 description = "MCP server providing authoritative knowledge about the EPS ecosystem — philosophy, ADRs, packages, and harness design."
 authors     = ["Slam-Dunk-Software"]
 license     = "MIT"
