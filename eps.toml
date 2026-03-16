@@ -2,10 +2,14 @@
 name        = "eps_mcp"
 version     = "0.1.0"
 description = "MCP server providing authoritative knowledge about the EPS ecosystem — philosophy, ADRs, packages, and harness design."
-authors     = ["nickagliano"]
+authors     = ["Slam-Dunk-Software"]
 license     = "MIT"
 repository  = "https://github.com/Slam-Dunk-Software/eps_mcp"
 platform    = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu"]
+
+[eps]
+type                = "tool"
+customization_guide = "CUSTOMIZE.md"
 
 [hooks]
 install = "Scripts/install.sh"
